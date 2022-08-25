@@ -2,10 +2,10 @@ import Profile from "./Profile";
 import MenuItem from "./MenuItem";
 import Footer from "./Footer";
 
-interface SidebarProps {
+interface SideBarProps {
 	activeMenu: 'overview' | 'transactions' | 'messages' | 'card' | 'rewards' | 'settings' | 'logout';
  }
-export default function Sidebar(props:SidebarProps) {
+export default function SideBar(props:SideBarProps) {
 	const {activeMenu} = props;
 	return (
 		<>
