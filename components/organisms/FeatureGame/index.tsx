@@ -7,11 +7,11 @@ export default function FeatureGame(){
             </h2>
             <div className="d-flex flex-row flex-lg-wrap overflow-setting justify-content-lg-between gap-lg-3 gap-4"
                 data-aos="fade-up">
-                <GameItem title="Super Mechs" category="Mobile" thumbnail="thumbnail-1" />
-                <GameItem title="Call of Duty Modern" category="Mobile" thumbnail="thumbnail-2" />
-                <GameItem title="Mobile Legends" category="Mobile" thumbnail="thumbnail-3" />
-                <GameItem title="Clash of Clans" category="Mobile" thumbnail="thumbnail-4" />
-                <GameItem title="Valorant" category="Desktop" thumbnail="thumbnail-5" />
+                <GameItem title="Super Mechs" category="Mobile" thumbnail="/img/thumbnail-1.png" />
+                <GameItem title="Call of Duty Modern" category="Mobile" thumbnail="/img/thumbnail-2.png" />
+                <GameItem title="Mobile Legends" category="Mobile" thumbnail="/img/thumbnail-3.png" />
+                <GameItem title="Clash of Clans" category="Mobile" thumbnail="/img/thumbnail-4.png" />
+                <GameItem title="Valorant" category="Desktop" thumbnail="/img/thumbnail-5.png" />
             </div>
         </div>
     </section>)

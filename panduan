@@ -1,0 +1,85 @@
+install next js dg typescript
+
+npx create-next-app@latest --typescript
+# or
+yarn create next-app --typescript
+# or
+pnpm create next-app --typescript
+
+
+
+nextjs biasa
+
+npx create-next-app@latest
+# or
+yarn create next-app
+# or
+pnpm create next-app
+
+memulai server development
+npm run dev
+yarn dev
+
+storybook.js.org
+install storybook
+npx storybook init
+
+memulai server dev storybook
+npm run storybook
+yarn storybook
+
+
+install eslint
+npm init @eslint/config
+
+menjalankan eslint
+npx eslint yourfile.js
+
+# or
+
+yarn run eslint yourfile.js
+
+
+Setup Texteditor
+
+Bracket Pair -> menunjukkan tutup tag yang belum ditutup
+Color Highlight -> memberi warna pada hexadecimal
+ES7/React/Redux -> snippet react
+ESLint ->menunjukkan tempat error dg garis merah
+LiveServer -> menjalankan rojek secara offline 
+Path Intellisense -> menunjukkan path yg akan dicari untuk kebutuhan asset yg digunakan
+Prettier -> untuk merapikan codingan
+Vim -> menjalankan projek dengan vim
+
+
+tambahkan animasi AOS ke Projek
+yarn add aos 
+atau
+yarn add aos@next
+
+
+
+Atomic Design
+Memecah beberapa element html menjadi component-component yang lebih kecil dan di kelompokan di sebuah structure
+
+-> folder atoms : digunakan untuk komponent-komponen kecil yang berulang maks 2x
+-> folder molekules : digunakan untuk komponen yang sering digunakan/berulang
+-> folder organisms : digunakan untuk mengelompokkan section components
+
+
+tambahkan logic untuk membuat props class pada element
+yarn add classnames
+
+
+
+Link NextJs
+kenapa tag a harus dibungkus tag Link punya NextJs karena saat berpindah halaman, akan memiliki behavior single page aplication
+
+
+
+Storybook
+untuk menggumpulkan komponen-komponen yang kita buat agar menjadi desain sistem
+
+
+Tambahkan integrasi Axios untuk fetch API
+yarn add axios
