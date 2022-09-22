@@ -30,7 +30,26 @@ yarn storybook
 
 
 install eslint
+npm install --save-dev prettier eslint-config-prettier eslint-plugin-prettier
+npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-import-resolver-typescript
+
+
+yarn add --dev prettier eslint-config-prettier eslint-plugin-prettier
+yarn add --dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin eslint-import-resolver-typescript
+
+
 npm init @eslint/config
+
+yarn add --dev eslint
+yarn add --dev @types/eslint 
+yarn add --dev eslint-plugin-n
+yarn add --dev eslint-plugin-promise
+yarn add --dev
+yarn add --dev
+yarn add --dev
+yarn add --dev @typescript-eslint @typescript-eslint/eslint-plugin
+yarn add --dev eslint-config-standard-with-typescript
+yarn add -D typescript @typescript-eslint/parser
 
 menjalankan eslint
 npx eslint yourfile.js
@@ -54,6 +73,8 @@ Vim -> menjalankan projek dengan vim
 
 tambahkan animasi AOS ke Projek
 yarn add aos 
+yarn add --dev @types/aos
+
 atau
 yarn add aos@next
 
@@ -83,3 +104,43 @@ untuk menggumpulkan komponen-komponen yang kita buat agar menjadi desain sistem
 
 Tambahkan integrasi Axios untuk fetch API
 yarn add axios
+
+tambahkan dependency untuk memformat angka curency
+yarn add react-number-format
+
+
+tambahkan pesan handle error call api
+
+$ npm install --save react-toastify
+$ yarn add react-toastify
+
+
+
+tabahkan dependency untuk menyimpan token jwt ke cookie
+
+npm i js-cookie
+npm i --save-dev @types/js-cookie
+yarn add js-cookie
+yarn add --dev @types/js-cookie
+
+
+install jwt decode untuk ambil data dari token yg didapat
+
+npm i jwt-decode
+yarn add jwt-decode
+
+
+module.exports = {
+  eslint: {
+    // Warning: This allows production builds to successfully complete even if
+    // your project has ESLint errors.
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    // !! WARN !!
+    // Dangerously allow production builds to successfully complete even if
+    // your project has type errors.
+    // !! WARN !!
+    ignoreBuildErrors: true,
+  },
+}
