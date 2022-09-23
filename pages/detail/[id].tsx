@@ -14,10 +14,10 @@ import {
 interface DetailProps {
   dataItem: GameItemTypes;
   nominals: NominalsTypes[];
-  payment: PaymentTypes[];
+  payments: PaymentTypes[];
 }
 
-export default function Detail({ dataItem, nominals, payment }: DetailProps) {
+export default function Detail({ dataItem, nominals, payments }: DetailProps) {
   useEffect(() => {
     localStorage.setItem('data-item', JSON.stringify(dataItem));
   }, []);
@@ -70,7 +70,7 @@ export default function Detail({ dataItem, nominals, payment }: DetailProps) {
             <div className="col-xl-9 col-lg-8 col-md-7 ps-md-25">
               <TopUpItem data={dataItem} type="desktop" />
               <hr />
-              <TopUpForm nominals={nominals} payments={payment} />
+              <TopUpForm nominals={nominals} payments={payments} />
             </div>
           </div>
         </div>
